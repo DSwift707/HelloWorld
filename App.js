@@ -22,6 +22,7 @@ export default class App extends React.Component {
     return (
       <View style={style.container}>
         <FetchLocation onGetLocation={this.getUserLocationHandler} />
+        <Text>Hi</Text>
         <MapView
           initialRegion={{
             latitude: 37.78825,
